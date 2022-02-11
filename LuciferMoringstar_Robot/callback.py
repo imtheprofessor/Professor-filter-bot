@@ -271,8 +271,8 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                  InlineKeyboardButton("🧐 𝐇𝐄𝐋𝐏 🙄", callback_data="help"),
                  InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about") 
                  ],[
-                 InlineKeyboardButton("🧐 𝐆𝐑𝐎𝐔𝐏 🍿", url="https://youtu.be/FCU_XJmyG_U"),
-                 InlineKeyboardButton("🧐 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🍿", url="https://t.me/Mo_Tech_Group")
+                 InlineKeyboardButton("🧐 𝐆𝐑𝐎𝐔𝐏 🍿", url="https://t.me/freakersfilmy"),
+                 InlineKeyboardButton("🧐 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🍿", url="https://t.me/freakersmovies")
                  ]]
             else:
                 buttons = [[
@@ -281,8 +281,8 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                  InlineKeyboardButton("🧐 𝐇𝐄𝐋𝐏 🍿", callback_data="bot_owner"),
                  InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about") 
                  ],[
-                 InlineKeyboardButton("🧐 𝐆𝐑𝐎𝐔𝐏 🍿", url="https://youtu.be/FCU_XJmyG_U"),
-                 InlineKeyboardButton("🧐 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🍿", url="https://t.me/Mo_Tech_Group")
+                 InlineKeyboardButton("🧐 𝐆𝐑𝐎𝐔𝐏 🍿", url="https://t.me/freakersfilmy"),
+                 InlineKeyboardButton("🧐 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🍿", url="https://t.me/frrakersmovies")
                  ]]               
             await query.message.edit(text=START_MSG.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
