@@ -256,7 +256,9 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
         elif query.data == "start":
             if query.from_user.id not in ADMINS: 
                 buttons = [[
-                 InlineKeyboardButton("🧐 𝐇𝐄𝐋𝐏 🙄", callback_data="help"),
+                 InlineKeyboardButton("🔍𝐒𝐄𝐀𝐑𝐂𝐇 𝐅𝐈𝐋𝐄", switch_inline_query_current_chat='')
+                 ],[
+                 InlineKeyboardButton("🧐 𝐇𝐄𝐋𝐏 🍿", callback_data="help"),
                  InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about") 
                  ],[
                  InlineKeyboardButton("🧐 𝐆𝐑𝐎𝐔𝐏 🍿", url="https://t.me/freakersfilmy"),
