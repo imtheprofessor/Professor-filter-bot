@@ -2,7 +2,21 @@ class LuciferMoringstar(object):
 
     DEFAULT_MSG = """👋Hello {mention}.....!!!\nIt's Power Full [{bot_name}](t.me/{bot_username}) Here 😎\nAdd Me To Your Group And Make Sure I'm an Admin There! \nAnd Enjoy My Pever Show.....!!!🤪"""
 
-    HELP_MSG = """**Help Veno Monuse 🤣**"""
+    HELP_MSG = """**<i><b><u> How To Use Me </i></b></u>
+
+💡 <i>Click Search 🔍 Button Below And Type Your Movie Name..</i>
+
+💡 <i>Type </i>👉 @freakers_bot<space><u>Movies Name</u>
+
+💡 <i>Directly Send Me A Movie Name In Correct Spelling..</i>
+
+💡 <b>താഴെ കാണുന്ന Search 🔍 ബട്ടൺ ക്ലിക്ക് ചെയ്ത് സിനിമയുടെ പേര് ടൈപ്പ് ചെയ്യുക.</b>
+
+💡@freakers_bot<space><u>Movies Name </u>👈 <b>ഈ ഫോർമാറ്റ് ഉപയോഗിക്കുക.</b>
+
+💡 <b>സ്പെല്ലിംഗ് തെറ്റ് കൂടാതെ സിനിമയുടെ പേര് മാത്രം അയക്കുക..</b>
+
+**"""
 
     ABOUT_MSG = """
 𝑴𝒚 𝑵𝒂𝒎𝒆 : [{bot_name}](t.me/{bot_username})
