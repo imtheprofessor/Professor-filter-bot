@@ -7,7 +7,7 @@ class LuciferMoringstar(object):
     ABOUT_MSG = """
 𝑴𝒚 𝑵𝒂𝒎𝒆 : [{bot_name}](t.me/{bot_username})
 
-𝑴𝒚 𝑪𝒓𝒆𝒂𝒕𝒐𝒓 : [PR0FESS0R-99](t.me/naughty_nonsense)
+𝑴𝒚 𝑪𝒓𝒆𝒂𝒕𝒐𝒓 : [𝐍𝐚𝐮𝐠𝐡𝐭𝐲 𝐍𝐨𝐧𝐬𝐞𝐧𝐬𝐞](t.me/naughty_nonsense)
 
 𝑴𝒚 𝑮𝒓𝒐𝒖𝒑 : [𝐅𝐫𝐞𝐚𝐤𝐞𝐫𝐬 𝐅𝐢𝐥𝐦𝐲](https://t.me/freakersfilmy)
 
