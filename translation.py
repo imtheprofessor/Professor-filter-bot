@@ -4,6 +4,8 @@ class LuciferMoringstar(object):
 
     HELP_MSG = """**<i><b><u> How To Use Me 🤔?</i></b></u>
 
+💡 <i>First You Must Join Our Official Group & Channel to Use Me.</i>
+
 💡 <i>Click Search 🔍 Button Below And Type Your Movie Name..</i>
 
 💡 <i>Type </i>👉 @freakers_bot <u>Movies Name</u>
@@ -16,6 +18,7 @@ class LuciferMoringstar(object):
 
 💡 <b>സ്പെല്ലിംഗ് തെറ്റ് കൂടാതെ സിനിമയുടെ പേര് മാത്രം അയക്കുക..</b>
 
+<i>@freakersfilmy</i>©
 **"""
 
     ABOUT_MSG = """
