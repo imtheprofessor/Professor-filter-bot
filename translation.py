@@ -2,17 +2,17 @@ class LuciferMoringstar(object):
 
     DEFAULT_MSG = """👋Hello {mention}.....!!!\nIt's Power Full [{bot_name}](t.me/{bot_username}) Here 😎\nAdd Me To Your Group And Make Sure I'm an Admin There! \nAnd Enjoy My Pever Show.....!!!🤪"""
 
-    HELP_MSG = """**<i><b><u> How To Use Me </i></b></u>
+    HELP_MSG = """**<i><b><u> How To Use Me 🤔?</i></b></u>
 
 💡 <i>Click Search 🔍 Button Below And Type Your Movie Name..</i>
 
-💡 <i>Type </i>👉 @freakers_bot<space><u>Movies Name</u>
+💡 <i>Type </i>👉 @freakers_bot <u>Movies Name</u>
 
 💡 <i>Directly Send Me A Movie Name In Correct Spelling..</i>
 
 💡 <b>താഴെ കാണുന്ന Search 🔍 ബട്ടൺ ക്ലിക്ക് ചെയ്ത് സിനിമയുടെ പേര് ടൈപ്പ് ചെയ്യുക.</b>
 
-💡@freakers_bot<space><u>Movies Name </u>👈 <b>ഈ ഫോർമാറ്റ് ഉപയോഗിക്കുക.</b>
+💡@freakers_bot <u>Movies Name </u>👈 <b>ഈ ഫോർമാറ്റ് ഉപയോഗിക്കുക.</b>
 
 💡 <b>സ്പെല്ലിംഗ് തെറ്റ് കൂടാതെ സിനിമയുടെ പേര് മാത്രം അയക്കുക..</b>
 
@@ -49,12 +49,12 @@ Hello 👋〘 {mention} 〙,
 
 Couldn't Find {query}?  Please Click Your Request Movie Name"""
     GET_MOVIE_1 = """
-📽️ Requested Movie : [{query}]({url})
-🧐 Requested By : {mention}
-🎬 Title : [{title}]({url})
-📆 Year : {year}
-🌟 Rating {rating}/10
-🗨️ Genres {genres}"""
+𝐓𝐢𝐭𝐥𝐞: [{title}]({url})
+𝐘𝐞𝐚𝐫: {year}
+𝐑𝐚𝐭𝐢𝐧𝐠 {rating}/10
+𝐆𝐞𝐧𝐫𝐞: {genres}
+𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲: <i><b>@freakersfilmy </b></i>©
+"""
 
 
     GET_MOVIE_2 = """
