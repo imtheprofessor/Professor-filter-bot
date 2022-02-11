@@ -268,44 +268,42 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
         elif query.data == "start":
             if query.from_user.id not in ADMINS: 
                 buttons = [[
-                 InlineKeyboardButton("➕️ Add me to Your Chat ➕️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
+                 InlineKeyboardButton("🧐 𝐇𝐄𝐋𝐏 🙄", callback_data="help"),
+                 InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about") 
                  ],[
-                 InlineKeyboardButton("ℹ️ Help", callback_data="help"),
-                 InlineKeyboardButton("😎 About", callback_data="about") 
-                 ],[
-                 InlineKeyboardButton("🗳 Deploy", url="https://youtu.be/FCU_XJmyG_U"),
-                 InlineKeyboardButton("🤖 Update", url="https://t.me/Mo_Tech_Group")
+                 InlineKeyboardButton("🧐 𝐆𝐑𝐎𝐔𝐏 🍿", url="https://youtu.be/FCU_XJmyG_U"),
+                 InlineKeyboardButton("🧐 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🍿", url="https://t.me/Mo_Tech_Group")
                  ]]
             else:
                 buttons = [[
                  InlineKeyboardButton("➕️ Add me to Your Chat ➕️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
                  ],[
-                 InlineKeyboardButton("ℹ️ Help", callback_data="bot_owner"),
-                 InlineKeyboardButton("😎 About", callback_data="about") 
+                 InlineKeyboardButton("🧐 𝐇𝐄𝐋𝐏 🍿", callback_data="bot_owner"),
+                 InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about") 
                  ],[
-                 InlineKeyboardButton("🗳 Deploy", url="https://youtu.be/FCU_XJmyG_U"),
-                 InlineKeyboardButton("🤖 Update", url="https://t.me/Mo_Tech_Group")
+                 InlineKeyboardButton("🧐 𝐆𝐑𝐎𝐔𝐏 🍿", url="https://youtu.be/FCU_XJmyG_U"),
+                 InlineKeyboardButton("🧐 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🍿", url="https://t.me/Mo_Tech_Group")
                  ]]               
             await query.message.edit(text=START_MSG.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "help":
             buttons = [[
-              InlineKeyboardButton("🏠 Home", callback_data="start"),
-              InlineKeyboardButton("About 😎", callback_data="about")
+              InlineKeyboardButton("🧐 𝐇𝐎𝐌𝐄 🍿", callback_data="start"),
+              InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about")
               ]]               
             await query.message.edit(text=LuciferMoringstar.HELP_MSG.format(mention=query.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "about":
             buttons = [[
-             InlineKeyboardButton("🏠 Home", callback_data="start"),
-             InlineKeyboardButton("Close 🗑️", callback_data="close")
+             InlineKeyboardButton("🧐 𝐇𝐎𝐌𝐄 🍿", callback_data="start"),
+             InlineKeyboardButton("🧐 𝐂𝐋𝐎𝐒𝐄 🍿", callback_data="close")
              ]]               
             await query.message.edit(text=LuciferMoringstar.ABOUT_MSG.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME, dev_name=DEV_NAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "bot_owner":
             buttons = [[
-             InlineKeyboardButton('🏠 Home', callback_data="start"),
-             InlineKeyboardButton('About 😎', callback_data="about")
+             InlineKeyboardButton('🧐 𝐇𝐎𝐌𝐄 🍿', callback_data="start"),
+             InlineKeyboardButton('🧐 𝐀𝐁𝐎𝐔𝐓 🍿', callback_data="about")
              ]]               
             await query.message.edit(text=LuciferMoringstar.PR0FESS0R_99.format(mention=query.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
