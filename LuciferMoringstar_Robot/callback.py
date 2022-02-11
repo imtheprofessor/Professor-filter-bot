@@ -124,11 +124,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 Back Page", callback_data=f"backbot_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("🔙 𝐁𝐚𝐜𝐤", callback_data=f"backbot_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)+2}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -139,11 +139,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 Back Page", callback_data=f"backbot_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("👈 𝐁𝐚𝐜𝐤", callback_data=f"backbot_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)+2}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -163,11 +163,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("𝐍𝐞𝐱𝐭 👉", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -178,11 +178,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 Back Page", callback_data=f"backbot_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("👈 𝐁𝐚𝐜𝐤", callback_data=f"backbot_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -250,7 +250,7 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 if f_caption is None:
                     f_caption = LuciferMoringstar.FILE_CAPTIONS
                 buttons = [[
-                  InlineKeyboardButton('🧑‍💻 How To Own 🧑‍💻', url='https://t.me/Mo_Tech_Group')
+                  InlineKeyboardButton('𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐓𝐨 𝐉𝐨𝐢𝐧', url='https://t.me/freakersfilmy')
                   ]]                 
                 
                 await query.answer()
