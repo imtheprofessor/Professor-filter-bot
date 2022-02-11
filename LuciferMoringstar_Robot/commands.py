@@ -25,13 +25,11 @@ async def start_message(bot, message):
              ]]
         else:
             buttons = [[
-             InlineKeyboardButton("➕️ Add me to Your Chat ➕️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
-             ],[
              InlineKeyboardButton("🧐 Help", callback_data="bot_owner"),
              InlineKeyboardButton("😎 About", callback_data="about") 
              ],[
-             InlineKeyboardButton("🗳 Deploy", url="https://youtu.be/OTqZmADyOjU"),
-             InlineKeyboardButton("🤖 Support", url="https://t.me/Mo_Tech_Group")
+             InlineKeyboardButton("🧐 Group 🍿", url="https://t.me/freakersfilmy"),
+             InlineKeyboardButton("🧐 Movies 🍿", url="https://t.me/freakersmovies")
              ]]    
         await message.reply_photo(photo = choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
         
@@ -52,8 +50,8 @@ async def start_message(bot, message):
 @LuciferMoringstar_Robot.on_message(Worker.private & Worker.command(["help"]))
 async def help(bot, message):
     button = [[
-     InlineKeyboardButton("🏠 Home", callback_data="start"),
-     InlineKeyboardButton("About 😎", callback_data="about")
+     InlineKeyboardButton("🧐Home🍿", callback_data="start"),
+     InlineKeyboardButton("🧐About🍿", callback_data="about")
      ]]
     await message.reply_photo(
         photo = choice(BOT_PICS),
@@ -63,8 +61,8 @@ async def help(bot, message):
 @LuciferMoringstar_Robot.on_message(Worker.private & Worker.command(["about"]))
 async def about(bot, message):
     button = [[
-     InlineKeyboardButton("🏠 Home", callback_data="start"),
-     InlineKeyboardButton("Close 🗑️", callback_data="close")
+     InlineKeyboardButton("🧐 Home 🍿", callback_data="start"),
+     InlineKeyboardButton("🧐 Close 🍿", callback_data="close")
      ]]  
     await message.reply_photo(
         photo = choice(BOT_PICS),
