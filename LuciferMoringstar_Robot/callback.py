@@ -38,9 +38,6 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                     [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)+2}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
                 )
-                buttons.append(
-                    [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
-                )
 
                 await query.edit_message_reply_markup( 
                     reply_markup=InlineKeyboardMarkup(buttons)
@@ -55,9 +52,6 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons.append(
                     [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)+2}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
-                )
-                buttons.append(
-                    [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
                 )
 
                 await query.edit_message_reply_markup( 
