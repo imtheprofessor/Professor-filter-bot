@@ -276,7 +276,7 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                  ]]
             else:
                 buttons = [[
-                 InlineKeyboardButton("➕️ Add me to Your Chat ➕️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
+                 InlineKeyboardButton("🔍𝐒𝐄𝐀𝐑𝐂𝐇 𝐅𝐈𝐋𝐄", switch_inline_query_current_chat='')
                  ],[
                  InlineKeyboardButton("🧐 𝐇𝐄𝐋𝐏 🍿", callback_data="bot_owner"),
                  InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about") 
