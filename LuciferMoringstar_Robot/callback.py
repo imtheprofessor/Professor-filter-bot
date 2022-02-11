@@ -32,11 +32,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 𝐁𝐚𝐜𝐤", callback_data=f"backgroup_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("👈 𝘽𝙖𝙘𝙠", callback_data=f"backgroup_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝙋𝙖𝙜𝙚 𝙉𝙤:- {int(index)+2}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝘾𝙡𝙤𝙨𝙚 🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -47,11 +47,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("👈 𝐁𝐚𝐜𝐤", callback_data=f"backgroup_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("👈 𝘽𝙖𝙘𝙠", callback_data=f"backgroup_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝙋𝙖𝙜𝙚 𝙉𝙤:- {int(index)+2}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝘾𝙡𝙤𝙨𝙚 🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -71,11 +71,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("𝐍𝐞𝐱𝐭 👉", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("𝙉𝙚𝙭𝙩 👉", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝙋𝙖𝙜𝙚 𝙉𝙤:- {int(index)}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝘾𝙡𝙤𝙨𝙚 🗑️", callback_data="close")]
                 )
                 await query.edit_message_reply_markup( 
                     reply_markup=InlineKeyboardMarkup(buttons)
@@ -85,11 +85,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("👈 𝐁𝐚𝐜𝐤", callback_data=f"backgroup_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("👈 𝘽𝙖𝙘𝙠", callback_data=f"backgroup_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝙋𝙖𝙜𝙚 𝙉𝙤:- {int(index)}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝘾𝙡𝙤𝙨𝙚 🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -112,11 +112,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 𝐁𝐚𝐜𝐤", callback_data=f"backbot_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("👈 𝘽𝙖𝙘𝙠", callback_data=f"backbot_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝙋𝙖𝙜𝙚 𝙉𝙤:- {int(index)+2}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝘾𝙡𝙤𝙨𝙚 🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -127,11 +127,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("👈 𝐁𝐚𝐜𝐤", callback_data=f"backbot_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("👈 𝘽𝙖𝙘𝙠", callback_data=f"backbot_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝙋𝙖𝙜𝙚 𝙉𝙤:- {int(index)+2}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝘾𝙡𝙤𝙨𝙚 🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -151,11 +151,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("𝐍𝐞𝐱𝐭 👉", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("𝙉𝙚𝙭𝙩 👉", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝙋𝙖𝙜𝙚 𝙉𝙤:- {int(index)}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝘾𝙡𝙤𝙨𝙚 🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -166,11 +166,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("👈 𝐁𝐚𝐜𝐤", callback_data=f"backbot_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("👈 𝘽𝙖𝙘𝙠", callback_data=f"backbot_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝙋𝙖𝙜𝙚 𝙉𝙤:- {int(index)}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝘾𝙡𝙤𝙨𝙚 🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
