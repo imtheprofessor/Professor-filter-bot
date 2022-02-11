@@ -17,19 +17,19 @@ async def start_message(bot, message):
             buttons = [[
              InlineKeyboardButton("➕️ Add me to Your Chat ➕️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
              ],[
-             InlineKeyboardButton("🧐Help", callback_data="help"),
-             InlineKeyboardButton("😎 About", callback_data="about") 
+             InlineKeyboardButton("🧐 𝐇𝐄𝐋𝐏 🍿", callback_data="help"),
+             InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about") 
              ],[
-             InlineKeyboardButton("🗳 Deploy", url="https://youtu.be/OTqZmADyOjU"),
-             InlineKeyboardButton("🤖 Support", url="https://t.me/Mo_Tech_YT")
+             InlineKeyboardButton("🧐 𝐆𝐑𝐎𝐔𝐏 🍿", url="https://t.me/freakersfilmy"),
+             InlineKeyboardButton("🧐 𝐌𝐎𝐕𝐈𝐄𝐒 🍿", url="https://t.me/freakersmovies")
              ]]
         else:
             buttons = [[
-             InlineKeyboardButton("🧐 Help", callback_data="bot_owner"),
-             InlineKeyboardButton("😎 About", callback_data="about") 
+             InlineKeyboardButton("🧐 𝐇𝐄𝐋𝐏 🍿", callback_data="bot_owner"),
+             InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about") 
              ],[
-             InlineKeyboardButton("🧐 Group 🍿", url="https://t.me/freakersfilmy"),
-             InlineKeyboardButton("🧐 Movies 🍿", url="https://t.me/freakersmovies")
+             InlineKeyboardButton("🧐 𝐆𝐑𝐎𝐔𝐏 🍿", url="https://t.me/freakersfilmy"),
+             InlineKeyboardButton("🧐 𝐌𝐎𝐕𝐈𝐄𝐒  🍿", url="https://t.me/freakersmovies")
              ]]    
         await message.reply_photo(photo = choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
         
@@ -37,7 +37,7 @@ async def start_message(bot, message):
         FORCES=["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
         invite_link = await bot.create_chat_invite_link(int(FORCES_SUB))
         button=[[
-         InlineKeyboardButton("🔔 SUBSCRIBE 🔔", url=invite_link.invite_link)
+         InlineKeyboardButton("🧐 𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 🍿", url=invite_link.invite_link)
          ]]
         reply_markup = InlineKeyboardMarkup(button)
         await message.reply_photo(
