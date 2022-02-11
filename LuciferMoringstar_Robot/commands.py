@@ -15,8 +15,7 @@ async def start_message(bot, message):
     if len(message.command) != 2:
         if message.from_user.id not in ADMINS: 
             buttons = [[
-             InlineKeyboardButton('🔍𝐒𝐄𝐀𝐑𝐂𝐇 𝐅𝐈𝐋𝐄', switch_inline_query_current_chat=qurey)
-             ],[
+             InlineKeyboardButton('🔍𝐒𝐄𝐀𝐑𝐂𝐇 𝐅𝐈𝐋𝐄', switch_inline_query_current_chat=qurey)],[
              InlineKeyboardButton("🧐 𝐇𝐄𝐋𝐏 🍿", callback_data="help"),
              InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about") 
              ],[
@@ -25,6 +24,7 @@ async def start_message(bot, message):
              ]]
         else:
             buttons = [[
+             InlineKeyboardButton('🔍𝐒𝐄𝐀𝐑𝐂𝐇 𝐅𝐈𝐋𝐄', switch_inline_query_current_chat=query)],[
              InlineKeyboardButton("🧐 𝐇𝐄𝐋𝐏 🍿", callback_data="bot_owner"),
              InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about") 
              ],[
