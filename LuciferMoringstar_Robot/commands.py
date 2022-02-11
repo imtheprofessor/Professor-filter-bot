@@ -15,8 +15,6 @@ async def start_message(bot, message):
     if len(message.command) != 2:
         if message.from_user.id not in ADMINS: 
             buttons = [[
-             InlineKeyboardButton("➕️ Add me to Your Chat ➕️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
-             ],[
              InlineKeyboardButton("🧐 𝐇𝐄𝐋𝐏 🍿", callback_data="help"),
              InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about") 
              ],[
@@ -50,8 +48,8 @@ async def start_message(bot, message):
 @LuciferMoringstar_Robot.on_message(Worker.private & Worker.command(["help"]))
 async def help(bot, message):
     button = [[
-     InlineKeyboardButton("🧐Home🍿", callback_data="start"),
-     InlineKeyboardButton("🧐About🍿", callback_data="about")
+     InlineKeyboardButton("🧐 𝐇𝐎𝐌𝐄 🍿", callback_data="start"),
+     InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about")
      ]]
     await message.reply_photo(
         photo = choice(BOT_PICS),
@@ -61,8 +59,8 @@ async def help(bot, message):
 @LuciferMoringstar_Robot.on_message(Worker.private & Worker.command(["about"]))
 async def about(bot, message):
     button = [[
-     InlineKeyboardButton("🧐 Home 🍿", callback_data="start"),
-     InlineKeyboardButton("🧐 Close 🍿", callback_data="close")
+     InlineKeyboardButton("🧐 𝐇𝐎𝐌𝐄 🍿", callback_data="start"),
+     InlineKeyboardButton("🧐 𝐂𝐋𝐎𝐒𝐄 🍿", callback_data="close")
      ]]  
     await message.reply_photo(
         photo = choice(BOT_PICS),
