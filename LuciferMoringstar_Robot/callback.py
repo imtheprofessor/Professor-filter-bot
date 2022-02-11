@@ -32,11 +32,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 Back Page", callback_data=f"backgroup_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("🔙 𝐁𝐚𝐜𝐤", callback_data=f"backgroup_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)+2}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
@@ -50,11 +50,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 Back Page", callback_data=f"backgroup_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("👈 𝐁𝐚𝐜𝐤", callback_data=f"backgroup_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)+2}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
@@ -77,11 +77,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("𝐍𝐞𝐱𝐭 👉", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
@@ -94,11 +94,11 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 Back Page", callback_data=f"backgroup_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("👈 𝐁𝐚𝐜𝐤", callback_data=f"backgroup_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                    [InlineKeyboardButton(f"𝐏𝐚𝐠𝐞 𝐍𝐨:- {int(index)}/{data['total']}", callback_data="pages"),
+                     InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🗑️", callback_data="close")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
