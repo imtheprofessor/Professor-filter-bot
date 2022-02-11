@@ -50,7 +50,7 @@ Hello 👋〘 {mention} 〙,
 Couldn't Find {query}?  Please Click Your Request Movie Name"""
     GET_MOVIE_1 = """
 📽️ Requested Movie : [{query}]({url})
-👤 Requested By : {mention}
+🧐 Requested By : {mention}
 🎬 Title : [{title}]({url})
 📆 Year : {year}
 🌟 Rating {rating}/10
