@@ -5,27 +5,17 @@ class LuciferMoringstar(object):
     HELP_MSG = """**Help Veno Monuse 🤣**"""
 
     ABOUT_MSG = """
-🤖 My Name [{bot_name}](t.me/{bot_username})
+𝑴𝒚 𝑵𝒂𝒎𝒆 : [{bot_name}](t.me/{bot_username})
 
-🧑 My Dev : [PR0FESS0R-99](t.me/PR0FESS0R_99)
+𝑴𝒚 𝑪𝒓𝒆𝒂𝒕𝒐𝒓 : [PR0FESS0R-99](t.me/naughty_nonsense)
 
-🧑 My Creator : {dev_name}
+𝑴𝒚 𝑮𝒓𝒐𝒖𝒑 : [𝐅𝐫𝐞𝐚𝐤𝐞𝐫𝐬 𝐅𝐢𝐥𝐦𝐲](https://t.me/freakersfilmy)
 
-📦 My Source : [Click Here](https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot)
+𝑪𝒉𝒂𝒏𝒏𝒆𝒍 -1 : [𝐅𝐫𝐞𝐚𝐤𝐞𝐫𝐬 𝐌𝐨𝐯𝐢𝐞𝐬](https://t.me/freakersmovies)
 
-📺 My Tutorial : [Ckick Here](https://youtu.be/FCU_XJmyG_U)
+𝑪𝒉𝒂𝒏𝒏𝒆𝒍 -2 : [𝐅𝐫𝐞𝐚𝐤𝐞𝐫𝐬 𝐒𝐞𝐫𝐢𝐞𝐬](https://t.me/freakersseries)
 
-🗃️ My Library : [Pyrogram](https://youtu.be/Af055Eozk9s)
-
-🖇️ My Language : [Python3](https://youtu.be/Af055Eozk9s)
-
-🗃️ My Database : [Mongodb](https://youtu.be/gBLTsH-IXr0)
-
-🗳️ My Server : [Heroku](https://youtu.be/xcZD55td6Vw)
-
-🏷️ My Updates : [Mo Tech](t.me/Mo_Tech_YT)
-
-🗣️ My Support : [Any Doubt](t.me/Mo_Tech_Group)"""
+"""
 
     FILE_CAPTIONS = """Hello 👋 {mention}\n\n📁Title {title}\n\n🔘Size {size}"""
 
