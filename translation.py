@@ -7,20 +7,25 @@ class LuciferMoringstar(object):
 💡 <i>First You Must Join Our Official Group & Channel to Use Me.</i>
 
 💡 <i>Click Search 🔍 Button Below And Type Your Movie Name..</i>
-
-💡 <i>Directly Send Me A Movie Name In Correct Spelling..</i>
+Or <i>Directly Send Me A Movie Name In Correct Spelling..</i>
 
 💡 <i>സിനിമകൾ ലഭ്യമാകാൻ നിങ്ങൾ ഞങ്ങളുടെ ഒഫീഷ്യൽ ഗ്രൂപ്പിലും ചാനലിലും മെമ്പർ ആയിരിക്കണം..</i>
 
 💡 <i>താഴെ കാണുന്ന Search 🔍 ബട്ടൺ ക്ലിക്ക് ചെയ്ത് സിനിമയുടെ പേര് ടൈപ്പ് ചെയ്യുക.</i>
-
-💡 <i>സ്പെല്ലിംഗ് തെറ്റ് കൂടാതെ സിനിമയുടെ പേര് മാത്രം അയക്കുക..</i>
+അല്ലാ എങ്കിൽ <i>സ്പെല്ലിംഗ് തെറ്റ് കൂടാതെ സിനിമയുടെ പേര് മാത്രം അയക്കുക..</i>
 
 💡<i> Don't Ask Web/Tv Series .🙏 I was hired to provide Only movies.</i>
 
 💡<i> If You Need Any Series Use Oru Official Group or Series Bot</i>
 
 💡<i> Check /About For Group Links And Series Bot.</i>
+
+ <u><i><b> Examples Or Demo For Search A File</u></i></b>
+
+Lucifer ✅
+Lucifer 2019 ✅
+Lucifer Hd ❌
+Lucifer Movie❌
 
 <i>@freakersfilmy</i>©
 **"""
