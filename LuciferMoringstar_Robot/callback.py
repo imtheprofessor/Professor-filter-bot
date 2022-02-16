@@ -237,6 +237,12 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                         f_caption=f_caption
                 if f_caption is None:
                     f_caption = LuciferMoringstar.FILE_CAPTIONS
+
+                try:
+                if FORCES_SUB and not await is_subscribed(client, query):
+                    await query.answer(url=f"https://t.me/{bot_info.BOT_USERNAME}?start=subscribe")
+                    return
+
                 buttons = [[
                   InlineKeyboardButton('𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐓𝐨 𝐉𝐨𝐢𝐧', url='https://t.me/freakersfilmy')
                   ]]                 
