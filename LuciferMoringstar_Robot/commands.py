@@ -39,7 +39,7 @@ async def start_message(bot, message):
         FORCES=["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
         invite_link = await bot.create_chat_invite_link(int(FORCES_SUB))
         button=[[
-         InlineKeyboardButton("🧐 𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 🍿", url=http://t.me/freakersmovies)
+         InlineKeyboardButton("🧐 𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 🍿", url="http://t.me/freakersmovies")
          ]]
         reply_markup = InlineKeyboardMarkup(button)
         await message.reply_photo(
