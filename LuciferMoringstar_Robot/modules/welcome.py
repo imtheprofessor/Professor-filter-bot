@@ -12,5 +12,5 @@ async def welcome(client, message):
     text = MESSAGE.format(emoji.SPARKLES, ", ".join(new_members))
 
     dell=await message.reply_text(text, disable_web_page_preview=True)
-    await asyncio.sleep(1000)
+    await asyncio.sleep(000)
     await dell.delete()
