@@ -21,11 +21,12 @@ async def group_filters(client, message):
                 filename = f"{file.file_name}"
                 filesize = f"{get_size(file.file_size)}"
                 btn.append(
-                    [[
+                    reply_matkup = InlineKeyboardMarkup([[
                      InlineKeyboardButton("🎥 𝙈𝙤𝙫𝙞𝙚𝙨", url=f"http://t.me/freakersmovies")
-                    ],[
+                     ],[
                      InlineKeyboardButton(text=f"{filename}", callback_data=f"lucifermoringstar_robot#{file_id}"),
-                     InlineKeyboardButton(text=f"{filesize}", callback_data=f"lucifermoringstar_robot#{file_id}")]]
+                     InlineKeyboardButton(text=f"{filesize}", callback_data=f"lucifermoringstar_robot#{file_id}"))
+                     ]]
                 )
         else:
             if SPELL_MODE:
