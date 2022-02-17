@@ -302,7 +302,7 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
             await query.answer()
 
     else:
-        await query.answer("Please Request",show_alert=True)
+        await query.answer("Sorry.!\nOnly Requested Person Can Access This Button..\nYou Can Try To Re-Search The Movie Name..",show_alert=True)
 
 
 
