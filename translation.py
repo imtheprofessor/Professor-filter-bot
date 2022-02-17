@@ -63,7 +63,7 @@ Couldn't Find {query}?  Please Click Your Request Movie Name"""
     GET_MOVIE_1 = """
 𝐓𝐢𝐭𝐥𝐞: [{title}]({url})
 𝐘𝐞𝐚𝐫: {year}
-𝐑𝐚𝐭𝐢𝐧𝐠 {rating}/10
+𝐑𝐚𝐭𝐢𝐧𝐠: ⭐️{rating}/10
 𝐆𝐞𝐧𝐫𝐞: {genres}
 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲: <i><b>@freakersfilmy </b></i>©
 """
