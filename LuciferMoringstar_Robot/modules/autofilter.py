@@ -115,7 +115,8 @@ async def pm_autofilter(client, message):
                 file_id = file.file_id
                 filename = f"{get_size(file.file_size)} {file.file_name}"
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}", callback_data=f"pmfile#{file_id}")]
+                    [InlineKeyboardButton(text=f"{filename}", callback_data=f"pmfile#{file_id}"),
+                     InlineKeyboardButton(text=f"{file.file_size}", callback_data=f"pmfile#{file_id}")]
                 )
         else:
             await message.reply_photo(
