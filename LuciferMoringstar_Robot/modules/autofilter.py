@@ -113,7 +113,7 @@ async def pm_autofilter(client, message):
         if files:
             for file in files:
                 file_id = file.file_id
-                filename = f"{get_size(file.file_size)} {file.file_name}"
+                filename = f"{file.file_name}"
                 filesize = f"{get_size(file.file_size)}"
                 btn.append(
                     [InlineKeyboardButton(text=f"{filename}", callback_data=f"pmfile#{file_id}"),
