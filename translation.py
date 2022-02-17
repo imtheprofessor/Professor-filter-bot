@@ -4,7 +4,7 @@ class LuciferMoringstar(object):
 
     HELP_MSG = """**<i><b><u> How To Use Me 🤔?</i></b></u>
 
-👉 Type movie name in [official group](http://t.me/freakersfimy)
+👉 Type movie name in [official group](http://t.me/freakersfilmy)
 
 👉 Select the file you like
 
