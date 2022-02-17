@@ -18,9 +18,11 @@ async def group_filters(client, message):
         if files:
             for file in files:
                 file_id = file.file_id
-                filename = f"{get_size(file.file_size)} {file.file_name}"
+                filename = f"{file.file_name}"
+                filesize = f"{get_size(file.file_size)}"
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}", callback_data=f"lucifermoringstar_robot#{file_id}")]
+                    [InlineKeyboardButton(text=f"{filename}", callback_data=f"lucifermoringstar_robot#{file_id}"),
+                     InlineKeyboardButton(text=f"{filesize}", callback_data=f"lucifermoringstar_robot#{file_id}")]
                 )
         else:
             if SPELL_MODE:
