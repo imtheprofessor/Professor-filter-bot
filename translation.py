@@ -16,7 +16,7 @@ class LuciferMoringstar(object):
 
 👉 തീരെഞ്ഞെടുത്ത ഫയൽ നിങ്ങൾക്ക് പേർസണൽ ആയി അയച്ചു തരുന്നതാണ്
 
-💡<i> Check /About For Group Links And Chsnnels .</i>
+💡<i> Check /About For Group Links And Channels .</i>
 
  <u><i><b> Examples Or Demo For Search A File</u></i></b>
 
