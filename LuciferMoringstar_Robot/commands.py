@@ -21,7 +21,7 @@ async def start_message(bot, message):
              InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about") 
              ],[
              InlineKeyboardButton("🧐 𝐆𝐑𝐎𝐔𝐏 🍿", url="https://t.me/freakersfilmy"),
-             InlineKeyboardButton("🧐 𝐌𝐎𝐕𝐈𝐄𝐒 🍿", url="https://t.me/freakersmovies")
+             InlineKeyboardButton("🧐 𝐌𝐎𝐕𝐈𝐄𝐒 🍿", url="https://t.me/freakersmovie")
              ]]
         else:
             buttons = [[
@@ -31,7 +31,7 @@ async def start_message(bot, message):
              InlineKeyboardButton("🧐 𝐀𝐁𝐎𝐔𝐓 🍿", callback_data="about") 
              ],[
              InlineKeyboardButton("🧐 𝐆𝐑𝐎𝐔𝐏 🍿", url="https://t.me/freakersfilmy"),
-             InlineKeyboardButton("🧐 𝐌𝐎𝐕𝐈𝐄𝐒  🍿", url="https://t.me/freakersmovies")
+             InlineKeyboardButton("🧐 𝐌𝐎𝐕𝐈𝐄𝐒  🍿", url="https://t.me/freakersmovie")
              ]]    
         await message.reply_photo(photo = choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
         
